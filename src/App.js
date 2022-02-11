@@ -22,7 +22,7 @@ function App() {
           
           <Switch>
             <Route exact path="/">
-              <Home />
+              <Home title={"Hello, I'm a Web Developer"} />
             </Route>
             <Route path="/Welcome">
               <Welcome />

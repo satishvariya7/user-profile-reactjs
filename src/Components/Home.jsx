@@ -1,11 +1,7 @@
 import React from 'react';
 import { Link } from "react-router-dom";
-// import '../css/css.css';
-// import '../css/owl.carousel.min.css'
-// import '../css/main.css'
-// import '../css/colors/color-0.css'
 
-function Home() {
+function Home({title}) {
     return (
         <>        
             <main className="site-wrapper">
@@ -18,7 +14,7 @@ function Home() {
                                 <div className="col-xs-12 col-md-offset-1 col-md-10 col-lg-offset-2 col-lg-8">
                                     <div className="page-title home text-center">
                                         {/* <img src="img/phantom.png" alt="" /> */}
-                                        <p>Hello, I'm a Web Developer</p>
+                                        <p>{title}Hello, I'm a Web Developer</p>
                                     </div>
 
                                     <div className="hexagon-menu clear">
