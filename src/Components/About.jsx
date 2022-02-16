@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-function About() {
+function About({name,date,user}) {
     return (    
             <main className="site-wrapper">
                 <div className="pt-table">
@@ -27,7 +27,7 @@ function About() {
                                             <p><b>Freelance:</b> Available</p>
                                         </div>
                                     </div>
-                                    <p>I'm a multi-award winning designer that has been specialising in web design for the past three years although I have experience in branding and print.Projects.</p>
+                                    {/* <p>I'm a multi-award winning designer that has been specialising in web design for the past three years although I have experience in branding and print.Projects.</p> */}                                    
                                 </div>
 
                                 <div className="col-xs-12 col-md-6">

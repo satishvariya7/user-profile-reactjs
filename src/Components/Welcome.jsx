@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-function Welcome() {
+function Welcome({user,name,title}) {
     return (        
             <main className="site-wrapper">
                 <div className="pt-table">
